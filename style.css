@@ -5,23 +5,25 @@
 	src: url('Quicksand-Light.otf') format('truetype');
 }
 
-@font-face {
-	font-family: 'din';
-	src: url('din.ttf') format('truetype');
-}
-
 body {
-    background-image: url("solarsystem.jpg");
-    background-color: #000000;
+    /*background-image: url("solarsystem.jpg");*/
+    background-color: white;
     background-size: 100%;
     background-repeat: no-repeat;
-    color: white; 
-
+    color: black; 
 }
 
 h1 {
 	font-family: "quicksand";
-	font-weight: 700;
+	font-weight: 1500;
+}
+
+#header {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
 }
 
 a {
@@ -35,5 +37,11 @@ a {
 #contact li {
 	display: inline;
 	list-style-type: none;
-	padding-right: 30px;
+	padding-right: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hover:hover, .hover:focus, .hover:active {
+	color: black;
 }
