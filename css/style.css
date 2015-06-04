@@ -6,7 +6,7 @@
 }
 
 body {
-    /*background-image: url("solarsystem.jpg");*/
+    background-image: url("http://i.imgur.com/qwBraEP.png");
     background-color: white;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ a {
 }
 
 #icons {
-	width: 300px;
+	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 }
