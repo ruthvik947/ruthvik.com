@@ -34,7 +34,7 @@ a {
 }
 
 #icons {
-	width: 400px;
+	width: 340px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -42,7 +42,7 @@ a {
 #contact li {
 	display: inline;
 	list-style-type: none;
-	padding-right: 30px;
+	padding-right: 20px;
 }
 
 .hover:hover, .hover:focus, .hover:active {
