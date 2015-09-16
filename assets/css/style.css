@@ -65,9 +65,9 @@ a {
 
 #upper-block {
 	height: 280px;
-	width: 1280px;
+	width: 102%;
 	margin-left: -8px;
-	margin-right: -8px;
+	margin-right: 0px;
 	margin-top: -8px;
 	padding: 0px;
 }
