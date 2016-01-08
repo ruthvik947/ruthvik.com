@@ -7,7 +7,8 @@
 }
 
 body {
-	background-color: #FFFDF1;
+	background-color: #ffffff;
+	/*#FFFDF1;*/
 }
 
 a {
@@ -73,7 +74,7 @@ a {
 }
 
 .color-change {
-	background-image: url("../../images/astro-banner-bg.png");
+	/*background-image: url("../../images/astro-banner-bg.png");*/
 }
 
 .hover:hover, .hover:focus, .hover:active {
