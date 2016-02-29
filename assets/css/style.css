@@ -3,12 +3,18 @@
 
 @font-face {
 	font-family: 'quicksand';
+	src: url('../fonts/Quicksand-Regular.otf') format('truetype');
+}
+
+@font-face {
+	font-family: 'quicksand-light';
 	src: url('../fonts/Quicksand-Light.otf') format('truetype');
 }
 
 body {
+	font-family: "quicksand-light";
 	background-color: #ffffff;
-	/*#FFFDF1;*/
+	font-size: 1em;
 }
 
 a {
@@ -16,65 +22,10 @@ a {
 	text-decoration: inherit;
 }
 
-#contact li {
-	display: inline;
-	list-style-type: none;
-	padding-right: 25px;
-}
-
-.contact-card {
-	height: 450px;
-	width: 400px;
-	margin-top: 10%;
-	left: 50%;
-	margin-left: -200px;
-	overflow: hidden;
-	position: absolute;
-	background-color: #263238;
-	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
-}
-
-#text {
-	margin-top: 45%;
-	font-family: "quicksand";
-	color: white;
-	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0);
-	text-align: center;
-}
-
-#avatar {
-	height: 125px;
-	width: 120px;
-	margin-left: -62px;
-	margin-top: 10%;
-}
-
-#blank-circle {
-	height: 165px;
-	width: 160px;
-	margin-left: -82.5px;
-	margin-top: 9.6%;
-	background-color: #ffffff
-}
-
-.circle-pic {
-	position: absolute;
-	left: 50%;
-	border-radius: 50%;
-	overflow: hidden;
-}
-
-#upper-block {
-	height: 280px;
-	width: 102%;
-	margin-left: -8px;
-	margin-right: 0px;
-	margin-top: -8px;
-	padding: 0px;
-}
-
-.color-change {
-	/*background-image: url("../../images/astro-banner-bg.png");*/
+#greeting {
+	/*font-family: "quicksand";*/
+	font-weight: 500;
+	font-size: 4em;
 }
 
 .hover:hover, .hover:focus, .hover:active {
