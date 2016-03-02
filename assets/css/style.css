@@ -3,12 +3,12 @@
 
 @font-face {
 	font-family: 'quicksand';
-	src: url('../fonts/Quicksand-Regular.otf') format('truetype');
+	src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'quicksand-light';
-	src: url('../fonts/Quicksand-Light.otf') format('truetype');
+	src: url('../fonts/OpenSans-Light.ttf') format('truetype');
 }
 
 body {
