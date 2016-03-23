@@ -2,17 +2,22 @@
 @import url(font-awesome.min.css);
 
 @font-face {
-	font-family: 'quicksand';
-	src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'quicksand-light';
+	font-family: 'OpenSans-Light';
 	src: url('../fonts/OpenSans-Light.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url('../fonts/Roboto/Roboto-Light.ttf') format('truetype');
+}
+
 body {
-	font-family: "quicksand-light";
+	font-family: 'OpenSans-Light';
 	background-color: #ffffff;
 	font-size: 1em;
 }
@@ -23,11 +28,10 @@ a {
 }
 
 #greeting {
-	/*font-family: "quicksand";*/
-	font-weight: 500;
+	font-weight: 400; 
 	font-size: 4em;
 }
 
 .hover:hover, .hover:focus, .hover:active {
-	color: #00695C;
+	color: #b0bec5;
 }
